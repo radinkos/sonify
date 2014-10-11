@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface DetailedViewController : UIViewController
+@interface DetailedViewController : UIViewController <AVAudioPlayerDelegate>
+{
+    AVAudioPlayer* audioPlayerPointer;
+}
 
 @end

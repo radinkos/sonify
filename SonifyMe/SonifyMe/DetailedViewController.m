@@ -12,15 +12,15 @@
 
 @end
 
-@implementation DetailedViewController
+@implementation DetailedViewController 
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+- (IBAction)playSound:(id)sender {
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"CanadaCO2" ofType:@"mp3"]];
+    
+    audioPlayerPointer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error: nil];
+                          audioPlayerPointer.delegate = self;
+                          [audioPlayerPointer setVolume:0.7];
+                          [audioPlayerPointer play];
 }
 
 - (void)viewDidLoad
