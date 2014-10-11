@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *graphImageView;
 @property (strong, nonatomic) IBOutlet UISlider *slider;
+@property (strong, nonatomic) IBOutlet UIButton *volumeButton;
 
 @end
 
@@ -27,7 +28,7 @@
     
     audioPlayerPointer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error: nil];
     audioPlayerPointer.delegate = self;
-    [audioPlayerPointer setVolume:0.7];
+    [audioPlayerPointer setVolume:1];
     [audioPlayerPointer play];
     [self animateSlider];
 }
@@ -42,6 +43,17 @@
                           cancelButtonTitle:@"Back"
                           otherButtonTitles: nil];
     [alert show];
+}
+
+- (IBAction)muteButtonPressed:(id)sender
+{
+    float volumeValue = (audioPlayerPointer.volume == 0) ? 1 : 0;
+    if (volumeValue == 1) {
+        [self.volumeButton setImage:[UIImage imageNamed:@"mute.jpg"] forState:UIControlStateNormal];
+    }else {
+        [self.volumeButton setImage:[UIImage imageNamed:@"sound.png"] forState:UIControlStateNormal];
+    }
+    [audioPlayerPointer setVolume:volumeValue];
 }
 
 

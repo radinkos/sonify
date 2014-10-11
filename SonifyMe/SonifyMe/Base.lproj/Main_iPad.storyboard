@@ -21,8 +21,8 @@
                                 <rect key="frame" x="21" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boo-3n-mhn">
-                                <rect key="frame" x="497" y="264" width="30" height="30"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="489" y="264" width="38" height="30"/>
+                                <color key="backgroundColor" red="0.15847579370000001" green="0.2213590815" blue="0.74388586960000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="UK">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -32,8 +32,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ut5-ju-V5H">
-                                <rect key="frame" x="934" y="330" width="42" height="30"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="899" y="315" width="58" height="30"/>
+                                <color key="backgroundColor" red="0.15847579370000001" green="0.2213590815" blue="0.74388586960000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Japan">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -43,8 +43,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWy-v4-RRo">
-                                <rect key="frame" x="169" y="249" width="64" height="22"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="169" y="249" width="75" height="30"/>
+                                <color key="backgroundColor" red="0.15847579368958986" green="0.22135908148593966" blue="0.74388586956521741" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Canada">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -73,18 +73,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdJ-M8-Yry">
-                                <rect key="frame" x="53" y="696" width="37" height="30"/>
-                                <state key="normal" title="PLAY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdJ-M8-Yry" userLabel="Replay">
+                                <rect key="frame" x="940" y="108" width="44" height="43"/>
+                                <state key="normal" image="replay.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playSound:" destination="QFv-Lc-gac" eventType="touchDown" id="ufM-WJ-yag"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5v6-na-C4K">
-                                <rect key="frame" x="237" y="696" width="66" height="30"/>
-                                <state key="normal" title="More Info">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5v6-na-C4K" userLabel="Extras">
+                                <rect key="frame" x="940" y="275" width="44" height="44"/>
+                                <state key="normal" image="QuestionMarkCircle.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -135,6 +135,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqQ-KU-q6W" userLabel="Mute">
+                                <rect key="frame" x="940" y="193" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="mute.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="muteButtonPressed:" destination="QFv-Lc-gac" eventType="touchUpInside" id="iap-Qe-7aK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -143,6 +153,7 @@
                     <connections>
                         <outlet property="graphImageView" destination="Lcq-Ya-uWx" id="cH8-0j-Mxs"/>
                         <outlet property="slider" destination="vUA-Tz-zlF" id="Vx2-c2-dff"/>
+                        <outlet property="volumeButton" destination="PqQ-KU-q6W" id="hm2-X6-GYC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ax-8f-bwm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -152,7 +163,10 @@
     </scenes>
     <resources>
         <image name="CO2Canada.PNG" width="753" height="433"/>
+        <image name="QuestionMarkCircle.jpg" width="796" height="852"/>
         <image name="World-Map (1).jpg" width="1920" height="1080"/>
+        <image name="mute.jpg" width="169" height="169"/>
+        <image name="replay.jpg" width="119" height="119"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -88,17 +88,17 @@
         detailedVC.dataType=@"CO2";
     }
     
-        else if (buttonIndex == 1){
-           buttonIsPressed = YES;
-           detailedVC.dataType=@"Rainfall";
-        }
-        
-            else if (buttonIndex == 2) {
-                buttonIsPressed = YES;
-                detailedVC.dataType=@"Temperature";
-            }
-        
-        
+    else if (buttonIndex == 1){
+        buttonIsPressed = YES;
+        detailedVC.dataType=@"Rainfall";
+    }
+    
+    else if (buttonIndex == 2) {
+        buttonIsPressed = YES;
+        detailedVC.dataType=@"Temperature";
+    }
+    
+    
     
     
     if (actionSheet.tag == 100) {
@@ -115,7 +115,7 @@
     }
     
     
-   
+    
     
     
 }
