@@ -15,13 +15,14 @@
 		9E9F20CC19E934E30054E82E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20CB19E934E30054E82E /* AppDelegate.m */; };
 		9E9F20CF19E934E30054E82E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F20CD19E934E30054E82E /* Main_iPhone.storyboard */; };
 		9E9F20D219E934E30054E82E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F20D019E934E30054E82E /* Main_iPad.storyboard */; };
-		9E9F20D519E934E30054E82E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20D419E934E30054E82E /* ViewController.m */; };
+		9E9F20D519E934E30054E82E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20D419E934E30054E82E /* MapViewController.m */; };
 		9E9F20D719E934E30054E82E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F20D619E934E30054E82E /* Images.xcassets */; };
 		9E9F20DE19E934E40054E82E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20DD19E934E40054E82E /* XCTest.framework */; };
 		9E9F20DF19E934E40054E82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BB19E934E30054E82E /* Foundation.framework */; };
 		9E9F20E019E934E40054E82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BF19E934E30054E82E /* UIKit.framework */; };
 		9E9F20E819E934E40054E82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F20E619E934E40054E82E /* InfoPlist.strings */; };
 		9E9F20EA19E934E40054E82E /* SonifyMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20E919E934E40054E82E /* SonifyMeTests.m */; };
+		9E9F20F519E93A730054E82E /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20F419E93A730054E82E /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,16 @@
 		9E9F20CB19E934E30054E82E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9E9F20CE19E934E30054E82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9E9F20D119E934E30054E82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9E9F20D319E934E30054E82E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E9F20D419E934E30054E82E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E9F20D319E934E30054E82E /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9E9F20D419E934E30054E82E /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		9E9F20D619E934E30054E82E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9E9F20DC19E934E40054E82E /* SonifyMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonifyMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9F20DD19E934E40054E82E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9E9F20E519E934E40054E82E /* SonifyMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SonifyMeTests-Info.plist"; sourceTree = "<group>"; };
 		9E9F20E719E934E40054E82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E9F20E919E934E40054E82E /* SonifyMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonifyMeTests.m; sourceTree = "<group>"; };
+		9E9F20F319E93A730054E82E /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		9E9F20F419E93A730054E82E /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +121,12 @@
 				9E9F20CB19E934E30054E82E /* AppDelegate.m */,
 				9E9F20CD19E934E30054E82E /* Main_iPhone.storyboard */,
 				9E9F20D019E934E30054E82E /* Main_iPad.storyboard */,
-				9E9F20D319E934E30054E82E /* ViewController.h */,
-				9E9F20D419E934E30054E82E /* ViewController.m */,
+				9E9F20D319E934E30054E82E /* MapViewController.h */,
+				9E9F20D419E934E30054E82E /* MapViewController.m */,
 				9E9F20D619E934E30054E82E /* Images.xcassets */,
 				9E9F20C219E934E30054E82E /* Supporting Files */,
+				9E9F20F319E93A730054E82E /* DetailedViewController.h */,
+				9E9F20F419E93A730054E82E /* DetailedViewController.m */,
 			);
 			path = SonifyMe;
 			sourceTree = "<group>";
@@ -253,8 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E9F20D519E934E30054E82E /* ViewController.m in Sources */,
+				9E9F20D519E934E30054E82E /* MapViewController.m in Sources */,
 				9E9F20CC19E934E30054E82E /* AppDelegate.m in Sources */,
+				9E9F20F519E93A730054E82E /* DetailedViewController.m in Sources */,
 				9E9F20C819E934E30054E82E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

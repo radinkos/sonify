@@ -7,12 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "MapViewController.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+    MapViewController *mapVC = [storyboard instantiateViewControllerWithIdentifier:@"MapViewController"];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mapVC];
+    
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 							

@@ -6,13 +6,14 @@
 //  Copyright (c) 2014 Sonify. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MapViewController.h"
+#import "DetailedViewController.h"
 
-@interface ViewController ()
+@interface MapViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MapViewController
 
 - (void)viewDidLoad
 {
@@ -24,6 +25,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)ukButtonPressed:(id)sender
+{
+    DetailedViewController *detailedVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailedViewController"];
+    [self.navigationController pushViewController:detailedVC animated:YES];
 }
 
 @end
