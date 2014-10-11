@@ -10,18 +10,28 @@
 
 @interface DetailedViewController ()
 
+@property (strong, nonatomic) IBOutlet UIImageView *graphImageView;
+@property (strong, nonatomic) IBOutlet UISlider *slider;
+
 @end
 
 @implementation DetailedViewController 
 
 - (IBAction)playSound:(id)sender {
+    [self playSound];
+}
+
+- (void)playSound
+{
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:[self generateFileName] ofType:@"mp3"]];
     
     audioPlayerPointer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error: nil];
-                          audioPlayerPointer.delegate = self;
-                          [audioPlayerPointer setVolume:0.7];
-                          [audioPlayerPointer play];
+    audioPlayerPointer.delegate = self;
+    [audioPlayerPointer setVolume:0.7];
+    [audioPlayerPointer play];
+    [self animateSlider];
 }
+
 - (IBAction)displaMoreInfo:(id)sender {
     NSString *path = [[NSBundle mainBundle] pathForResource:[self generateFileName] ofType:@"rtf"];
     NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
@@ -43,24 +53,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.slider setValue:0];
     
+    UIImage *image = [UIImage imageNamed:[self generateFileName]];
+    [self.graphImageView setImage:image];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewDidAppear:animated];
+    [self playSound];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)animateSlider
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [self.slider setValue:0];
+    [UIView animateWithDuration:audioPlayerPointer.duration animations:^{
+        [self.slider setValue:1 animated:YES];
+    } completion:^(BOOL finished) {
+    }];
 }
-*/
 
 @end
