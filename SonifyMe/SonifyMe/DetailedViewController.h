@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface DetailedViewController : UIViewController
+@interface DetailedViewController : UIViewController <AVAudioPlayerDelegate, UIAlertViewDelegate>
+{
+    AVAudioPlayer* audioPlayerPointer;
+}
 
 @property (strong, nonatomic)NSString* dataType;
 @property (strong, nonatomic)NSString* countryName;
