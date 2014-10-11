@@ -11,6 +11,8 @@
 
 @interface MapViewController ()
 
+@property (strong, nonatomic) NSArray *countries;
+
 @end
 
 @implementation MapViewController
@@ -20,6 +22,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {

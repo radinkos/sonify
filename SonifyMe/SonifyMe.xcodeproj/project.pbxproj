@@ -23,6 +23,17 @@
 		9E9F20E819E934E40054E82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F20E619E934E40054E82E /* InfoPlist.strings */; };
 		9E9F20EA19E934E40054E82E /* SonifyMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20E919E934E40054E82E /* SonifyMeTests.m */; };
 		9E9F20F519E93A730054E82E /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20F419E93A730054E82E /* DetailedViewController.m */; };
+		9E9F20FE19E9407D0054E82E /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20FD19E9407D0054E82E /* Country.m */; };
+		9E9F210D19E95E740054E82E /* CO2Canada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210419E95E740054E82E /* CO2Canada.txt */; };
+		9E9F210E19E95E740054E82E /* CO2Japan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210519E95E740054E82E /* CO2Japan.txt */; };
+		9E9F210F19E95E740054E82E /* CO2UK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210619E95E740054E82E /* CO2UK.txt */; };
+		9E9F211019E95E740054E82E /* rainCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210719E95E740054E82E /* rainCanada.txt */; };
+		9E9F211119E95E740054E82E /* rainJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210819E95E740054E82E /* rainJapan.txt */; };
+		9E9F211219E95E740054E82E /* rainUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210919E95E740054E82E /* rainUK.txt */; };
+		9E9F211319E95E740054E82E /* tempCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210A19E95E740054E82E /* tempCanada.txt */; };
+		9E9F211419E95E740054E82E /* tempJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210B19E95E740054E82E /* tempJapan.txt */; };
+		9E9F211519E95E740054E82E /* tempUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210C19E95E740054E82E /* tempUK.txt */; };
+		E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8E8826219E9626800E0123C /* World-Map (1).jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +69,18 @@
 		9E9F20E919E934E40054E82E /* SonifyMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonifyMeTests.m; sourceTree = "<group>"; };
 		9E9F20F319E93A730054E82E /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
 		9E9F20F419E93A730054E82E /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		9E9F20FC19E9407D0054E82E /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		9E9F20FD19E9407D0054E82E /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		9E9F210419E95E740054E82E /* CO2Canada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2Canada.txt; sourceTree = "<group>"; };
+		9E9F210519E95E740054E82E /* CO2Japan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2Japan.txt; sourceTree = "<group>"; };
+		9E9F210619E95E740054E82E /* CO2UK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2UK.txt; sourceTree = "<group>"; };
+		9E9F210719E95E740054E82E /* rainCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainCanada.txt; sourceTree = "<group>"; };
+		9E9F210819E95E740054E82E /* rainJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainJapan.txt; sourceTree = "<group>"; };
+		9E9F210919E95E740054E82E /* rainUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainUK.txt; sourceTree = "<group>"; };
+		9E9F210A19E95E740054E82E /* tempCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempCanada.txt; sourceTree = "<group>"; };
+		9E9F210B19E95E740054E82E /* tempJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempJapan.txt; sourceTree = "<group>"; };
+		9E9F210C19E95E740054E82E /* tempUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempUK.txt; sourceTree = "<group>"; };
+		E8E8826219E9626800E0123C /* World-Map (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World-Map (1).jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +150,9 @@
 				9E9F20C219E934E30054E82E /* Supporting Files */,
 				9E9F20F319E93A730054E82E /* DetailedViewController.h */,
 				9E9F20F419E93A730054E82E /* DetailedViewController.m */,
+				9E9F20FC19E9407D0054E82E /* Country.h */,
+				9E9F20FD19E9407D0054E82E /* Country.m */,
+				9E9F20FF19E944760054E82E /* Resources */,
 			);
 			path = SonifyMe;
 			sourceTree = "<group>";
@@ -134,6 +160,7 @@
 		9E9F20C219E934E30054E82E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8E8826219E9626800E0123C /* World-Map (1).jpg */,
 				9E9F20C319E934E30054E82E /* SonifyMe-Info.plist */,
 				9E9F20C419E934E30054E82E /* InfoPlist.strings */,
 				9E9F20C719E934E30054E82E /* main.m */,
@@ -158,6 +185,22 @@
 				9E9F20E619E934E40054E82E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E9F20FF19E944760054E82E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E9F210419E95E740054E82E /* CO2Canada.txt */,
+				9E9F210519E95E740054E82E /* CO2Japan.txt */,
+				9E9F210619E95E740054E82E /* CO2UK.txt */,
+				9E9F210719E95E740054E82E /* rainCanada.txt */,
+				9E9F210819E95E740054E82E /* rainJapan.txt */,
+				9E9F210919E95E740054E82E /* rainUK.txt */,
+				9E9F210A19E95E740054E82E /* tempCanada.txt */,
+				9E9F210B19E95E740054E82E /* tempJapan.txt */,
+				9E9F210C19E95E740054E82E /* tempUK.txt */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +279,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9F211019E95E740054E82E /* rainCanada.txt in Resources */,
 				9E9F20D219E934E30054E82E /* Main_iPad.storyboard in Resources */,
+				9E9F211519E95E740054E82E /* tempUK.txt in Resources */,
 				9E9F20D719E934E30054E82E /* Images.xcassets in Resources */,
+				9E9F211219E95E740054E82E /* rainUK.txt in Resources */,
+				9E9F210F19E95E740054E82E /* CO2UK.txt in Resources */,
+				9E9F211319E95E740054E82E /* tempCanada.txt in Resources */,
+				9E9F211419E95E740054E82E /* tempJapan.txt in Resources */,
+				9E9F210D19E95E740054E82E /* CO2Canada.txt in Resources */,
+				9E9F210E19E95E740054E82E /* CO2Japan.txt in Resources */,
+				E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */,
 				9E9F20CF19E934E30054E82E /* Main_iPhone.storyboard in Resources */,
 				9E9F20C619E934E30054E82E /* InfoPlist.strings in Resources */,
+				9E9F211119E95E740054E82E /* rainJapan.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +314,7 @@
 				9E9F20D519E934E30054E82E /* MapViewController.m in Sources */,
 				9E9F20CC19E934E30054E82E /* AppDelegate.m in Sources */,
 				9E9F20F519E93A730054E82E /* DetailedViewController.m in Sources */,
+				9E9F20FE19E9407D0054E82E /* Country.m in Sources */,
 				9E9F20C819E934E30054E82E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +530,7 @@
 				9E9F20EF19E934E40054E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E9F20F019E934E40054E82E /* Build configuration list for PBXNativeTarget "SonifyMeTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +539,7 @@
 				9E9F20F219E934E40054E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
