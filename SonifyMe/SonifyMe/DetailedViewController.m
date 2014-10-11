@@ -69,6 +69,8 @@
     
     UIImage *image = [UIImage imageNamed:[self generateFileName]];
     [self.graphImageView setImage:image];
+    
+    [self setTitle:[NSString stringWithFormat:@"%@ in %@", self.dataType, self.countryName]];
 }
 
 - (void)viewDidAppear:(BOOL)animated

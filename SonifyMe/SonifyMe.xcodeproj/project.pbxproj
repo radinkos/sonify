@@ -20,7 +20,7 @@
 		9E93B7EA19E98E93008ADC04 /* TemperatureCanada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7E119E98E93008ADC04 /* TemperatureCanada.mp3 */; };
 		9E93B7EB19E98E93008ADC04 /* TemperatureJapan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7E219E98E93008ADC04 /* TemperatureJapan.mp3 */; };
 		9E93B7EC19E98E93008ADC04 /* TemperatureUK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7E319E98E93008ADC04 /* TemperatureUK.mp3 */; };
-		9E93B7F319E98F1A008ADC04 /* TempertureCanada.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7ED19E98F1A008ADC04 /* TempertureCanada.PNG */; };
+		9E93B7F319E98F1A008ADC04 /* TemperatureCanada.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7ED19E98F1A008ADC04 /* TemperatureCanada.PNG */; };
 		9E93B7F419E98F1A008ADC04 /* TemperatureUK.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7EE19E98F1A008ADC04 /* TemperatureUK.PNG */; };
 		9E93B7F519E98F1A008ADC04 /* RainfallUK.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7EF19E98F1A008ADC04 /* RainfallUK.PNG */; };
 		9E93B7F619E98F1A008ADC04 /* TemperatureJapan.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7F019E98F1A008ADC04 /* TemperatureJapan.PNG */; };
@@ -82,7 +82,7 @@
 		9E93B7E119E98E93008ADC04 /* TemperatureCanada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TemperatureCanada.mp3; sourceTree = "<group>"; };
 		9E93B7E219E98E93008ADC04 /* TemperatureJapan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TemperatureJapan.mp3; sourceTree = "<group>"; };
 		9E93B7E319E98E93008ADC04 /* TemperatureUK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TemperatureUK.mp3; sourceTree = "<group>"; };
-		9E93B7ED19E98F1A008ADC04 /* TempertureCanada.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempertureCanada.PNG; sourceTree = "<group>"; };
+		9E93B7ED19E98F1A008ADC04 /* TemperatureCanada.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemperatureCanada.PNG; sourceTree = "<group>"; };
 		9E93B7EE19E98F1A008ADC04 /* TemperatureUK.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemperatureUK.PNG; sourceTree = "<group>"; };
 		9E93B7EF19E98F1A008ADC04 /* RainfallUK.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RainfallUK.PNG; sourceTree = "<group>"; };
 		9E93B7F019E98F1A008ADC04 /* TemperatureJapan.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemperatureJapan.PNG; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 				9E93B7F919E98F2B008ADC04 /* CO2UK.PNG */,
 				9E93B7FA19E98F2B008ADC04 /* CO2Japan.PNG */,
 				9E93B7FB19E98F2B008ADC04 /* CO2Canada.PNG */,
-				9E93B7ED19E98F1A008ADC04 /* TempertureCanada.PNG */,
+				9E93B7ED19E98F1A008ADC04 /* TemperatureCanada.PNG */,
 				9E93B7EE19E98F1A008ADC04 /* TemperatureUK.PNG */,
 				9E93B7EF19E98F1A008ADC04 /* RainfallUK.PNG */,
 				9E93B7F019E98F1A008ADC04 /* TemperatureJapan.PNG */,
@@ -354,7 +354,7 @@
 				9E93B7E919E98E93008ADC04 /* RainfallUK.mp3 in Resources */,
 				E8E882A419E97D7F00E0123C /* RainfallCanada.txt in Resources */,
 				E8E882A519E97D7F00E0123C /* TemperatureCanada.txt in Resources */,
-				9E93B7F319E98F1A008ADC04 /* TempertureCanada.PNG in Resources */,
+				9E93B7F319E98F1A008ADC04 /* TemperatureCanada.PNG in Resources */,
 				9E93B7EC19E98E93008ADC04 /* TemperatureUK.mp3 in Resources */,
 				9E93B7F819E98F1A008ADC04 /* RainfallCanada.PNG in Resources */,
 				9E93B7E519E98E93008ADC04 /* CO2Canada.mp3 in Resources */,
