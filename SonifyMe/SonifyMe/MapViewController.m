@@ -33,8 +33,63 @@
 
 - (IBAction)ukButtonPressed:(id)sender
 {
-    DetailedViewController *detailedVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailedViewController"];
-    [self.navigationController pushViewController:detailedVC animated:YES];
+    UIActionSheet *actionSheet = [self createActionSheet];
+    actionSheet.tag = 100;
 }
+
+- (UIActionSheet *)createActionSheet
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Select"
+                                                             delegate:self
+                                                    cancelButtonTitle:@"Cancel"
+                                               destructiveButtonTitle:nil
+                                                    otherButtonTitles:@"CO2",@"Rainfall", @"Temperature ", nil];
+    
+    
+    [actionSheet showInView:self.view];
+    return actionSheet;
+}
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+    DetailedViewController *detailedVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailedViewController"];
+    BOOL buttonIsPressed = NO;
+    if (buttonIndex == 0) {
+        buttonIsPressed = YES;
+        
+        detailedVC.dataType=@"CO2";
+    }
+    
+        else if (buttonIndex == 1){
+           buttonIsPressed = YES;
+           detailedVC.dataType=@"Rainfall";
+        }
+        
+            else if (buttonIndex == 2) {
+                buttonIsPressed = YES;
+                detailedVC.dataType=@"Temperature";
+            }
+        
+        
+    
+    
+    if (actionSheet.tag == 100) {
+        detailedVC.countryName = @"UK";
+    }else if(actionSheet.tag == 200){
+        detailedVC.countryName = @"Canada";
+    }else if(actionSheet.tag == 300){
+        detailedVC.countryName = @"Japan";
+    }
+    
+    
+    if (buttonIsPressed) {
+        [self.navigationController pushViewController:detailedVC animated:YES];
+    }
+    
+    
+   
+    
+    
+}
+
 
 @end
