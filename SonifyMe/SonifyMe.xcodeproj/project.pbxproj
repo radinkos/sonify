@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E93B7D019E9837A008ADC04 /* CO2UK.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7CD19E9837A008ADC04 /* CO2UK.PNG */; };
-		9E93B7D119E9837A008ADC04 /* CO2Japan.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7CE19E9837A008ADC04 /* CO2Japan.PNG */; };
-		9E93B7D219E9837A008ADC04 /* CO2Canada.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7CF19E9837A008ADC04 /* CO2Canada.PNG */; };
 		9E9F20BC19E934E30054E82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BB19E934E30054E82E /* Foundation.framework */; };
 		9E9F20BE19E934E30054E82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BD19E934E30054E82E /* CoreGraphics.framework */; };
 		9E9F20C019E934E30054E82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BF19E934E30054E82E /* UIKit.framework */; };
@@ -27,15 +24,6 @@
 		9E9F20EA19E934E40054E82E /* SonifyMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20E919E934E40054E82E /* SonifyMeTests.m */; };
 		9E9F20F519E93A730054E82E /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20F419E93A730054E82E /* DetailedViewController.m */; };
 		9E9F20FE19E9407D0054E82E /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20FD19E9407D0054E82E /* Country.m */; };
-		9E9F210D19E95E740054E82E /* CO2Canada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210419E95E740054E82E /* CO2Canada.txt */; };
-		9E9F210E19E95E740054E82E /* CO2Japan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210519E95E740054E82E /* CO2Japan.txt */; };
-		9E9F210F19E95E740054E82E /* CO2UK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210619E95E740054E82E /* CO2UK.txt */; };
-		9E9F211019E95E740054E82E /* rainCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210719E95E740054E82E /* rainCanada.txt */; };
-		9E9F211119E95E740054E82E /* rainJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210819E95E740054E82E /* rainJapan.txt */; };
-		9E9F211219E95E740054E82E /* rainUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210919E95E740054E82E /* rainUK.txt */; };
-		9E9F211319E95E740054E82E /* tempCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210A19E95E740054E82E /* tempCanada.txt */; };
-		9E9F211419E95E740054E82E /* tempJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210B19E95E740054E82E /* tempJapan.txt */; };
-		9E9F211519E95E740054E82E /* tempUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210C19E95E740054E82E /* tempUK.txt */; };
 		E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8E8826219E9626800E0123C /* World-Map (1).jpg */; };
 		E8E8828719E96F7E00E0123C /* CO2Canada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8E8827E19E96F7E00E0123C /* CO2Canada.mp3 */; };
 		E8E8828819E96F7E00E0123C /* CO2Japan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8E8827F19E96F7E00E0123C /* CO2Japan.mp3 */; };
@@ -46,6 +34,15 @@
 		E8E8829319E9718500E0123C /* RainfallUK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8E8828E19E9718500E0123C /* RainfallUK.mp3 */; };
 		E8E8829419E9718500E0123C /* RainfallJapan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8E8828F19E9718500E0123C /* RainfallJapan.mp3 */; };
 		E8E8829519E9718500E0123C /* RainfallCanada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8E8829019E9718500E0123C /* RainfallCanada.mp3 */; };
+		E8E8829919E97B7800E0123C /* CO2UK.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E8829819E97B7800E0123C /* CO2UK.txt */; };
+		E8E8829C19E97CE600E0123C /* RainfallJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E8829A19E97CE600E0123C /* RainfallJapan.txt */; };
+		E8E8829D19E97CE600E0123C /* CO2Japan.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E8829B19E97CE600E0123C /* CO2Japan.txt */; };
+		E8E8829F19E97D4900E0123C /* CO2Canada.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E8829E19E97D4900E0123C /* CO2Canada.txt */; };
+		E8E882A419E97D7F00E0123C /* RainfallCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E882A019E97D7F00E0123C /* RainfallCanada.txt */; };
+		E8E882A519E97D7F00E0123C /* TemperatureCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E882A119E97D7F00E0123C /* TemperatureCanada.txt */; };
+		E8E882A619E97D7F00E0123C /* TemperatureUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E882A219E97D7F00E0123C /* TemperatureUK.txt */; };
+		E8E882A719E97D7F00E0123C /* RainfallUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E882A319E97D7F00E0123C /* RainfallUK.txt */; };
+		E8E882A919E97DB000E0123C /* TemperatureJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8E882A819E97DB000E0123C /* TemperatureJapan.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +56,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9E93B7CD19E9837A008ADC04 /* CO2UK.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2UK.PNG; sourceTree = "<group>"; };
-		9E93B7CE19E9837A008ADC04 /* CO2Japan.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2Japan.PNG; sourceTree = "<group>"; };
-		9E93B7CF19E9837A008ADC04 /* CO2Canada.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2Canada.PNG; sourceTree = "<group>"; };
 		9E9F20B819E934E30054E82E /* SonifyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonifyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9F20BB19E934E30054E82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E9F20BD19E934E30054E82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,15 +80,6 @@
 		9E9F20F419E93A730054E82E /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 		9E9F20FC19E9407D0054E82E /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
 		9E9F20FD19E9407D0054E82E /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
-		9E9F210419E95E740054E82E /* CO2Canada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2Canada.txt; sourceTree = "<group>"; };
-		9E9F210519E95E740054E82E /* CO2Japan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2Japan.txt; sourceTree = "<group>"; };
-		9E9F210619E95E740054E82E /* CO2UK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2UK.txt; sourceTree = "<group>"; };
-		9E9F210719E95E740054E82E /* rainCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainCanada.txt; sourceTree = "<group>"; };
-		9E9F210819E95E740054E82E /* rainJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainJapan.txt; sourceTree = "<group>"; };
-		9E9F210919E95E740054E82E /* rainUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainUK.txt; sourceTree = "<group>"; };
-		9E9F210A19E95E740054E82E /* tempCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempCanada.txt; sourceTree = "<group>"; };
-		9E9F210B19E95E740054E82E /* tempJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempJapan.txt; sourceTree = "<group>"; };
-		9E9F210C19E95E740054E82E /* tempUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempUK.txt; sourceTree = "<group>"; };
 		E8E8826219E9626800E0123C /* World-Map (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World-Map (1).jpg"; sourceTree = "<group>"; };
 		E8E8827E19E96F7E00E0123C /* CO2Canada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CO2Canada.mp3; sourceTree = "<group>"; };
 		E8E8827F19E96F7E00E0123C /* CO2Japan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CO2Japan.mp3; sourceTree = "<group>"; };
@@ -105,6 +90,15 @@
 		E8E8828E19E9718500E0123C /* RainfallUK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RainfallUK.mp3; sourceTree = "<group>"; };
 		E8E8828F19E9718500E0123C /* RainfallJapan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RainfallJapan.mp3; sourceTree = "<group>"; };
 		E8E8829019E9718500E0123C /* RainfallCanada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RainfallCanada.mp3; sourceTree = "<group>"; };
+		E8E8829819E97B7800E0123C /* CO2UK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2UK.txt; sourceTree = "<group>"; };
+		E8E8829A19E97CE600E0123C /* RainfallJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RainfallJapan.txt; sourceTree = "<group>"; };
+		E8E8829B19E97CE600E0123C /* CO2Japan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2Japan.txt; sourceTree = "<group>"; };
+		E8E8829E19E97D4900E0123C /* CO2Canada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CO2Canada.txt; sourceTree = "<group>"; };
+		E8E882A019E97D7F00E0123C /* RainfallCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RainfallCanada.txt; sourceTree = "<group>"; };
+		E8E882A119E97D7F00E0123C /* TemperatureCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TemperatureCanada.txt; sourceTree = "<group>"; };
+		E8E882A219E97D7F00E0123C /* TemperatureUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TemperatureUK.txt; sourceTree = "<group>"; };
+		E8E882A319E97D7F00E0123C /* RainfallUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RainfallUK.txt; sourceTree = "<group>"; };
+		E8E882A819E97DB000E0123C /* TemperatureJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TemperatureJapan.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +178,15 @@
 		9E9F20C219E934E30054E82E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8E882A819E97DB000E0123C /* TemperatureJapan.txt */,
+				E8E882A019E97D7F00E0123C /* RainfallCanada.txt */,
+				E8E882A119E97D7F00E0123C /* TemperatureCanada.txt */,
+				E8E882A219E97D7F00E0123C /* TemperatureUK.txt */,
+				E8E882A319E97D7F00E0123C /* RainfallUK.txt */,
+				E8E8829E19E97D4900E0123C /* CO2Canada.txt */,
+				E8E8829A19E97CE600E0123C /* RainfallJapan.txt */,
+				E8E8829B19E97CE600E0123C /* CO2Japan.txt */,
+				E8E8829819E97B7800E0123C /* CO2UK.txt */,
 				E8E8828C19E9718500E0123C /* TemperatureJapan.mp3 */,
 				E8E8828D19E9718500E0123C /* TemperatureCanada.mp3 */,
 				E8E8828E19E9718500E0123C /* RainfallUK.mp3 */,
@@ -223,18 +226,6 @@
 		9E9F20FF19E944760054E82E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9E93B7CD19E9837A008ADC04 /* CO2UK.PNG */,
-				9E93B7CE19E9837A008ADC04 /* CO2Japan.PNG */,
-				9E93B7CF19E9837A008ADC04 /* CO2Canada.PNG */,
-				9E9F210419E95E740054E82E /* CO2Canada.txt */,
-				9E9F210519E95E740054E82E /* CO2Japan.txt */,
-				9E9F210619E95E740054E82E /* CO2UK.txt */,
-				9E9F210719E95E740054E82E /* rainCanada.txt */,
-				9E9F210819E95E740054E82E /* rainJapan.txt */,
-				9E9F210919E95E740054E82E /* rainUK.txt */,
-				9E9F210A19E95E740054E82E /* tempCanada.txt */,
-				9E9F210B19E95E740054E82E /* tempJapan.txt */,
-				9E9F210C19E95E740054E82E /* tempUK.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -316,31 +307,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E8829119E9718500E0123C /* TemperatureJapan.mp3 in Resources */,
-				9E9F211019E95E740054E82E /* rainCanada.txt in Resources */,
 				E8E8829319E9718500E0123C /* RainfallUK.mp3 in Resources */,
+				E8E8829C19E97CE600E0123C /* RainfallJapan.txt in Resources */,
 				9E9F20D219E934E30054E82E /* Main_iPad.storyboard in Resources */,
-				9E9F211519E95E740054E82E /* tempUK.txt in Resources */,
 				9E9F20D719E934E30054E82E /* Images.xcassets in Resources */,
-				9E9F211219E95E740054E82E /* rainUK.txt in Resources */,
+				E8E8829D19E97CE600E0123C /* CO2Japan.txt in Resources */,
+				E8E882A419E97D7F00E0123C /* RainfallCanada.txt in Resources */,
 				E8E8828B19E970DC00E0123C /* TemperatureUK.mp3 in Resources */,
-				9E93B7D019E9837A008ADC04 /* CO2UK.PNG in Resources */,
-				9E9F210F19E95E740054E82E /* CO2UK.txt in Resources */,
-				9E9F211319E95E740054E82E /* tempCanada.txt in Resources */,
 				E8E8828819E96F7E00E0123C /* CO2Japan.mp3 in Resources */,
-				9E9F211419E95E740054E82E /* tempJapan.txt in Resources */,
+				E8E882A519E97D7F00E0123C /* TemperatureCanada.txt in Resources */,
+				E8E882A919E97DB000E0123C /* TemperatureJapan.txt in Resources */,
 				E8E8829519E9718500E0123C /* RainfallCanada.mp3 in Resources */,
-				9E93B7D219E9837A008ADC04 /* CO2Canada.PNG in Resources */,
-				9E9F210D19E95E740054E82E /* CO2Canada.txt in Resources */,
 				E8E8828919E96F7E00E0123C /* CO2UK.mp3 in Resources */,
-				9E9F210E19E95E740054E82E /* CO2Japan.txt in Resources */,
 				E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */,
 				9E9F20CF19E934E30054E82E /* Main_iPhone.storyboard in Resources */,
 				9E9F20C619E934E30054E82E /* InfoPlist.strings in Resources */,
-				9E93B7D119E9837A008ADC04 /* CO2Japan.PNG in Resources */,
 				E8E8829219E9718500E0123C /* TemperatureCanada.mp3 in Resources */,
-				9E9F211119E95E740054E82E /* rainJapan.txt in Resources */,
+				E8E8829919E97B7800E0123C /* CO2UK.txt in Resources */,
+				E8E8829F19E97D4900E0123C /* CO2Canada.txt in Resources */,
 				E8E8829419E9718500E0123C /* RainfallJapan.mp3 in Resources */,
+				E8E882A719E97D7F00E0123C /* RainfallUK.txt in Resources */,
 				E8E8828719E96F7E00E0123C /* CO2Canada.mp3 in Resources */,
+				E8E882A619E97D7F00E0123C /* TemperatureUK.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
