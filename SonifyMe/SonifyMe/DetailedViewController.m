@@ -23,10 +23,10 @@
                           [audioPlayerPointer play];
 }
 - (IBAction)displaMoreInfo:(id)sender {
-    NSString *path = [[NSBundle mainBundle] pathForResource:[self generateFileName] ofType:@"rtf"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:[self generateFileName] ofType:@"txt"];
     NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     UIAlertView *alert = [[UIAlertView alloc]
-                          initWithTitle: @"More Information"
+                          initWithTitle: @"What am I hearing?"
                           message:content
                           delegate:nil
                           cancelButtonTitle:@"Back"
