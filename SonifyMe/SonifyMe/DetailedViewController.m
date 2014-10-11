@@ -15,12 +15,29 @@
 @implementation DetailedViewController 
 
 - (IBAction)playSound:(id)sender {
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"CanadaCO2" ofType:@"mp3"]];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:[self generateFileName] ofType:@"mp3"]];
     
     audioPlayerPointer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error: nil];
                           audioPlayerPointer.delegate = self;
                           [audioPlayerPointer setVolume:0.7];
                           [audioPlayerPointer play];
+}
+- (IBAction)displaMoreInfo:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:[self generateFileName] ofType:@"rtf"];
+    NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle: @"More Information"
+                          message:content
+                          delegate:nil
+                          cancelButtonTitle:@"Back"
+                          otherButtonTitles: nil];
+    [alert show];
+}
+
+
+- (NSString *)generateFileName
+{
+    return [NSString stringWithFormat:@"%@%@", self.dataType, self.countryName];
 }
 
 - (void)viewDidLoad
