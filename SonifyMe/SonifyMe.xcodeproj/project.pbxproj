@@ -29,6 +29,7 @@
 		9E93B7FC19E98F2B008ADC04 /* CO2UK.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7F919E98F2B008ADC04 /* CO2UK.PNG */; };
 		9E93B7FD19E98F2B008ADC04 /* CO2Japan.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7FA19E98F2B008ADC04 /* CO2Japan.PNG */; };
 		9E93B7FE19E98F2B008ADC04 /* CO2Canada.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7FB19E98F2B008ADC04 /* CO2Canada.PNG */; };
+		9E93B80019E998B6008ADC04 /* LOGO 2 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93B7FF19E998B6008ADC04 /* LOGO 2 Icon.png */; };
 		9E9F20BC19E934E30054E82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BB19E934E30054E82E /* Foundation.framework */; };
 		9E9F20BE19E934E30054E82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BD19E934E30054E82E /* CoreGraphics.framework */; };
 		9E9F20C019E934E30054E82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F20BF19E934E30054E82E /* UIKit.framework */; };
@@ -91,6 +92,7 @@
 		9E93B7F919E98F2B008ADC04 /* CO2UK.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2UK.PNG; sourceTree = "<group>"; };
 		9E93B7FA19E98F2B008ADC04 /* CO2Japan.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2Japan.PNG; sourceTree = "<group>"; };
 		9E93B7FB19E98F2B008ADC04 /* CO2Canada.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2Canada.PNG; sourceTree = "<group>"; };
+		9E93B7FF19E998B6008ADC04 /* LOGO 2 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO 2 Icon.png"; sourceTree = "<group>"; };
 		9E9F20B819E934E30054E82E /* SonifyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonifyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9F20BB19E934E30054E82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E9F20BD19E934E30054E82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -204,6 +206,7 @@
 		9E9F20C219E934E30054E82E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E93B7FF19E998B6008ADC04 /* LOGO 2 Icon.png */,
 				9E93B7F919E98F2B008ADC04 /* CO2UK.PNG */,
 				9E93B7FA19E98F2B008ADC04 /* CO2Japan.PNG */,
 				9E93B7FB19E98F2B008ADC04 /* CO2Canada.PNG */,
@@ -358,6 +361,7 @@
 				9E93B7EC19E98E93008ADC04 /* TemperatureUK.mp3 in Resources */,
 				9E93B7F819E98F1A008ADC04 /* RainfallCanada.PNG in Resources */,
 				9E93B7E519E98E93008ADC04 /* CO2Canada.mp3 in Resources */,
+				9E93B80019E998B6008ADC04 /* LOGO 2 Icon.png in Resources */,
 				9E93B7D519E9897D008ADC04 /* mute.jpg in Resources */,
 				E8E882A919E97DB000E0123C /* TemperatureJapan.txt in Resources */,
 				E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */,
