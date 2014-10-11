@@ -33,6 +33,7 @@
 		9E9F211319E95E740054E82E /* tempCanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210A19E95E740054E82E /* tempCanada.txt */; };
 		9E9F211419E95E740054E82E /* tempJapan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210B19E95E740054E82E /* tempJapan.txt */; };
 		9E9F211519E95E740054E82E /* tempUK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F210C19E95E740054E82E /* tempUK.txt */; };
+		E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8E8826219E9626800E0123C /* World-Map (1).jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		9E9F210A19E95E740054E82E /* tempCanada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempCanada.txt; sourceTree = "<group>"; };
 		9E9F210B19E95E740054E82E /* tempJapan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempJapan.txt; sourceTree = "<group>"; };
 		9E9F210C19E95E740054E82E /* tempUK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tempUK.txt; sourceTree = "<group>"; };
+		E8E8826219E9626800E0123C /* World-Map (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World-Map (1).jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		9E9F20C219E934E30054E82E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8E8826219E9626800E0123C /* World-Map (1).jpg */,
 				9E9F20C319E934E30054E82E /* SonifyMe-Info.plist */,
 				9E9F20C419E934E30054E82E /* InfoPlist.strings */,
 				9E9F20C719E934E30054E82E /* main.m */,
@@ -286,6 +289,7 @@
 				9E9F211419E95E740054E82E /* tempJapan.txt in Resources */,
 				9E9F210D19E95E740054E82E /* CO2Canada.txt in Resources */,
 				9E9F210E19E95E740054E82E /* CO2Japan.txt in Resources */,
+				E8E8826319E9626800E0123C /* World-Map (1).jpg in Resources */,
 				9E9F20CF19E934E30054E82E /* Main_iPhone.storyboard in Resources */,
 				9E9F20C619E934E30054E82E /* InfoPlist.strings in Resources */,
 				9E9F211119E95E740054E82E /* rainJapan.txt in Resources */,
@@ -526,6 +530,7 @@
 				9E9F20EF19E934E40054E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E9F20F019E934E40054E82E /* Build configuration list for PBXNativeTarget "SonifyMeTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				9E9F20F219E934E40054E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
