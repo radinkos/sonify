@@ -23,6 +23,7 @@
 		9E9F20E819E934E40054E82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E9F20E619E934E40054E82E /* InfoPlist.strings */; };
 		9E9F20EA19E934E40054E82E /* SonifyMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20E919E934E40054E82E /* SonifyMeTests.m */; };
 		9E9F20F519E93A730054E82E /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F20F419E93A730054E82E /* DetailedViewController.m */; };
+		E8E8826119E94D4700E0123C /* World-Map (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8E8826019E94D4700E0123C /* World-Map (1).jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		9E9F20E919E934E40054E82E /* SonifyMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonifyMeTests.m; sourceTree = "<group>"; };
 		9E9F20F319E93A730054E82E /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
 		9E9F20F419E93A730054E82E /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		E8E8826019E94D4700E0123C /* World-Map (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "World-Map (1).jpg"; path = "../../../../Downloads/World-Map (1).jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		9E9F20C219E934E30054E82E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8E8826019E94D4700E0123C /* World-Map (1).jpg */,
 				9E9F20C319E934E30054E82E /* SonifyMe-Info.plist */,
 				9E9F20C419E934E30054E82E /* InfoPlist.strings */,
 				9E9F20C719E934E30054E82E /* main.m */,
@@ -238,6 +241,7 @@
 			files = (
 				9E9F20D219E934E30054E82E /* Main_iPad.storyboard in Resources */,
 				9E9F20D719E934E30054E82E /* Images.xcassets in Resources */,
+				E8E8826119E94D4700E0123C /* World-Map (1).jpg in Resources */,
 				9E9F20CF19E934E30054E82E /* Main_iPhone.storyboard in Resources */,
 				9E9F20C619E934E30054E82E /* InfoPlist.strings in Resources */,
 			);
@@ -476,6 +480,7 @@
 				9E9F20EF19E934E40054E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E9F20F019E934E40054E82E /* Build configuration list for PBXNativeTarget "SonifyMeTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +489,7 @@
 				9E9F20F219E934E40054E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
