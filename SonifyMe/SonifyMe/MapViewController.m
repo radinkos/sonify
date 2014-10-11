@@ -32,21 +32,50 @@
 }
 
 - (IBAction)ukButtonPressed:(id)sender
+
+
+
+
 {
+    
     UIActionSheet *actionSheet = [self createActionSheet];
     actionSheet.tag = 100;
+    [actionSheet showFromRect:[(UIButton *)sender frame] inView:self.view animated:YES];
 }
 
-- (UIActionSheet *)createActionSheet
+
+- (IBAction)canadaButtonPressed:(id)sender
+
 {
+    UIActionSheet *actionSheet = [self createActionSheet];
+    actionSheet.tag = 200;
+    [actionSheet showFromRect:[(UIButton *)sender frame] inView:self.view animated:YES];
+}
+
+- (IBAction)japanButtonPressed:(id)sender
+
+{
+    
+    UIActionSheet *actionSheet = [self createActionSheet];
+    [actionSheet showFromRect:[(UIButton *)sender frame] inView:self.view animated:YES];
+    actionSheet.tag = 300;
+}
+
+
+- (UIActionSheet *)createActionSheet;
+
+{
+    
     UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Select"
                                                              delegate:self
-                                                    cancelButtonTitle:@"Cancel"
+                                                    cancelButtonTitle:nil
                                                destructiveButtonTitle:nil
                                                     otherButtonTitles:@"CO2",@"Rainfall", @"Temperature ", nil];
     
+   
     
-    [actionSheet showInView:self.view];
+    //[actionSheet showInView:self.view];
+    
     return actionSheet;
 }
 
