@@ -70,7 +70,18 @@
     UIImage *image = [UIImage imageNamed:[self generateFileName]];
     [self.graphImageView setImage:image];
     
-    [self setTitle:[NSString stringWithFormat:@"%@ in %@", self.dataType, self.countryName]];
+    NSString *measurements;
+    
+    if ([self.dataType isEqualToString:@"CO2"]) {
+        measurements = @"(kt per year)";
+    }else if ([self.dataType isEqualToString:@"Temperature"]){
+        measurements = @"(avg Celsius)";
+    }else{
+        measurements = @"(mm per year)";
+    }
+    
+    
+    [self setTitle:[NSString stringWithFormat:@"%@ in %@ %@", self.dataType, self.countryName, measurements]];
 }
 
 - (void)viewDidAppear:(BOOL)animated
