@@ -10,4 +10,7 @@
 
 @interface DetailedViewController : UIViewController
 
+@property (strong, nonatomic)NSString* dataType;
+@property (strong, nonatomic)NSString* countryName;
+
 @end

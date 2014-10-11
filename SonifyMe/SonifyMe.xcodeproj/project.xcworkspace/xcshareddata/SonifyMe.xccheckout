@@ -10,29 +10,29 @@
 	<string>SonifyMe</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B8146029-2411-41E3-BD19-E201C0D4757F</key>
+		<key>8144F9A5DB40DD23FA3BC9B98AD1506C0C5FD321</key>
 		<string>ssh://github.com/radinkos/sonify.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SonifyMe/SonifyMe.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B8146029-2411-41E3-BD19-E201C0D4757F</key>
+		<key>8144F9A5DB40DD23FA3BC9B98AD1506C0C5FD321</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/radinkos/sonify.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B8146029-2411-41E3-BD19-E201C0D4757F</string>
+	<string>8144F9A5DB40DD23FA3BC9B98AD1506C0C5FD321</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B8146029-2411-41E3-BD19-E201C0D4757F</string>
+			<string>8144F9A5DB40DD23FA3BC9B98AD1506C0C5FD321</string>
 			<key>IDESourceControlWCCName</key>
 			<string>sonify</string>
 		</dict>
